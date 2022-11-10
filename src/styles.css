@@ -1,3 +1,61 @@
+:root {
+    --blue: hsl(246, 80%, 60%);
+    --work-lightred: hsl(15, 100%, 70%);
+    --play-softblue: hsl(195, 74%, 62%);
+    --study-lightred: hsl(348, 100%, 68%);
+    --exercise-limegreen: hsl(145, 58%, 55%);
+    --social-violet: hsl(264, 64%, 52%);
+    --selfcare-softorange: hsl(43, 84%, 65%);
+
+    --verydarkblue: hsl(226, 43%, 10%);
+    --darkblue: hsl(235, 46%, 20%);
+    --desaturatedblue: hsl(235, 45%, 61%);
+    --paleblue: hsl(236, 100%, 87%);
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--verydarkblue);
+    color: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: clamp(700px, 800px + 10vw, 99vw);
+    height: 500px;
+    background-color: transparent;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    border: 1px solid white;
+}
+
+footer {
+    position: absolute;
+    padding-bottom: 10px;
+    bottom: 0;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
