@@ -11,7 +11,12 @@
             sizes="32x32"
             href=".src/images/favicon-32x32.png"
         />
-
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+            rel="stylesheet"
+        />
         <title>Frontend Mentor | Time tracking dashboard</title>
         <link rel="stylesheet" href="./src/styles.css" />
         <script src=".src/script.js" defer></script>
@@ -19,84 +24,177 @@
     </head>
     <body>
         <main>
-            <section class="container">
-                Report for Jeremy Robson Daily Weekly Monthly Work 5hrs
-                <!-- daily -->
-                Previous - 7hrs
-                <!-- daily -->
+            <section class="wrapper">
+                <div class="square-summary">
+                    <div class="person-summary">
+                        <div class="picture">
+                            <!-- <img src="../src/images/image-jeremy.png" alt="" /> -->
+                        </div>
+                        <div class="for">Report for</div>
+                        <div class="person">Jeremy Robson</div>
+                    </div>
+                    <div class="time-summary">
+                        <p>Daily</p>
+                        <p>Weekly</p>
+                        <p>Monthly</p>
+                    </div>
+                </div>
+
+                <div class="square one">
+                    <div class="bg bg-one">
+                        <div class="content">
+                            <div class="category">Work</div>
+                            <div class="dots">
+                                <a href="#"
+                                    ><img
+                                        src="../src/images/icon-ellipsis.svg"
+                                        alt=""
+                                /></a>
+                            </div>
+                            <div class="time">5hrs</div>
+                            <div class="previous">Previous - 7hrs</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- daily 
                 32hrs
-                <!-- weekly -->
+                weekly 
                 Previous - 36hrs
-                <!-- weekly -->
+                weekly 
                 103hrs
-                <!-- monthly -->
+               monthly 
                 Previous - 128hrs
-                <!-- monthly -->
+                monthly -->
 
-                Play 1hr
-                <!-- daily -->
-                Previous - 2hrs
-                <!-- daily -->
+                <div class="square two">
+                    <div class="bg bg-two"></div>
+                    <div class="content">
+                        <div class="category">Play</div>
+                        <div class="dots">
+                            <a href="#"
+                                ><img
+                                    src="../src/images/icon-ellipsis.svg"
+                                    alt=""
+                            /></a>
+                        </div>
+                        <div class="time">1hr</div>
+                        <div class="previous">Previous - 2hrs</div>
+                    </div>
+                </div>
+
+                <!-- daily 
                 10hrs
-                <!-- weekly -->
+                 weekly 
                 Previous - 8hrs
-                <!-- weekly -->
+                 weekly 
                 23hrs
-                <!-- monthly -->
+                 monthly 
                 Previous - 29hrs
-                <!-- monthly -->
+                 monthly -->
 
-                Study 0hrs
-                <!-- daily -->
-                Previous - 1hr
-                <!-- daily -->
+                <div class="square three">
+                    <div class="bg bg-three"></div>
+                    <div class="content">
+                        <div class="category">Study</div>
+                        <div class="dots">
+                            <a href="#"
+                                ><img
+                                    src="../src/images/icon-ellipsis.svg"
+                                    alt=""
+                            /></a>
+                        </div>
+                        <div class="time">0hrs</div>
+                        <div class="previous"></div>
+                    </div>
+                </div>
+
+                <!-- daily 
                 4hrs
-                <!-- weekly -->
+                 weekly 
                 Previous - 7hrs
-                <!-- weekly -->
+                 weekly 
                 13hrs
-                <!-- monthly -->
+                 monthly 
                 Previous - 19hrs
-                <!-- monthly -->
+                 monthly -->
 
-                Exercise 1hr
-                <!-- daily -->
-                Previous - 1hr
-                <!-- daily -->
+                <div class="square four">
+                    <div class="bg bg-four"></div>
+                    <div class="content">
+                        <div class="category">Exercise</div>
+                        <div class="dots">
+                            <a href="#"
+                                ><img
+                                    src="../src/images/icon-ellipsis.svg"
+                                    alt=""
+                            /></a>
+                        </div>
+                        <div class="time">1hr</div>
+                        <div class="previous">Previous - 1hr</div>
+                    </div>
+                </div>
+
+                <!-- daily
                 4hrs
-                <!-- weekly -->
+                 weekly
                 Previous - 5hrs
-                <!-- weekly -->
+                 weekly
                 11hrs
-                <!-- monthly -->
+                 monthly
                 Previous - 18hrs
-                <!-- monthly -->
+                 monthly -->
 
-                Social 1hr
-                <!-- daily -->
-                Previous - 3hrs
-                <!-- daily -->
+                <div class="square five">
+                    <div class="bg bg-five"></div>
+                    <div class="content">
+                        <div class="category">Social</div>
+                        <div class="dots">
+                            <a href="#"
+                                ><img
+                                    src="../src/images/icon-ellipsis.svg"
+                                    alt=""
+                            /></a>
+                        </div>
+                        <div class="time">1hr</div>
+                        <div class="previous">Previous - 3hrs</div>
+                    </div>
+                </div>
+
+                <!-- daily
                 5hrs
-                <!-- weekly -->
+                 weekly
                 Previous - 10hrs
-                <!-- weekly -->
+                 weekly
                 21hrs
-                <!-- monthly -->
+                 monthly
                 Previous - 23hrs
-                <!-- monthly -->
+                 monthly -->
 
-                Self Care 0hrs
-                <!-- daily -->
-                Previous - 1hr
-                <!-- daily -->
-                2hrs
-                <!-- weekly -->
+                <div class="square six">
+                    <div class="bg bg-six"></div>
+                    <div class="content">
+                        <div class="category">Self Care</div>
+                        <div class="dots">
+                            <a href="#"
+                                ><img
+                                    src="../src/images/icon-ellipsis.svg"
+                                    alt=""
+                            /></a>
+                        </div>
+                        <div class="time">0hrs</div>
+                        <div class="previous">Previous - 1hr</div>
+                    </div>
+                </div>
+
+                <!--2hrs
+                weekly
                 Previous - 2hrs
-                <!-- weekly -->
+                - weekly
                 7hrs
-                <!-- monthly -->
+                 monthly
                 Previous - 11hrs
-                <!-- monthly -->
+                 monthly -->
             </section>
         </main>
         <footer>
