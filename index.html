@@ -9,7 +9,7 @@
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href=".src/images/favicon-32x32.png"
+            href="./src/images/favicon-32x32.png"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,7 +19,7 @@
         />
         <title>Frontend Mentor | Time tracking dashboard</title>
         <link rel="stylesheet" href="./src/styles.css" />
-        <script src=".src/script.js" defer></script>
+        <script src="./src/script.js" defer></script>
         <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     </head>
     <body>
@@ -37,15 +37,15 @@
                     </div>
                     <div class="time-summary"></div>
                     <div class="buttons">
-                        <span><button class="active">Daily</button></span>
-                        <span><button>Weekly</button></span>
-                        <span><button>Monthly</button></span>
+                        <span><button class="daily active">Daily</button></span>
+                        <span><button class="weekly">Weekly</button></span>
+                        <span><button class="monthly">Monthly</button></span>
                     </div>
                 </div>
 
                 <div class="square one">
                     <div class="bg bg-one">
-                        <div class="content">
+                        <div class="work content" id="work">
                             <div class="category">Work</div>
                             <div class="dots">
                                 <a href="#"
@@ -72,7 +72,7 @@
 
                 <div class="square two">
                     <div class="bg bg-two"></div>
-                    <div class="content">
+                    <div class="play content">
                         <div class="category">Play</div>
                         <div class="dots">
                             <a href="#"
@@ -81,7 +81,7 @@
                                     alt=""
                             /></a>
                         </div>
-                        <div class="time">1hr</div>
+                        <div class="time">1hrs</div>
                         <div class="previous">Previous - 2hrs</div>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
 
                 <div class="square three">
                     <div class="bg bg-three"></div>
-                    <div class="content">
+                    <div class="study content">
                         <div class="category">Study</div>
                         <div class="dots">
                             <a href="#"
@@ -108,7 +108,7 @@
                             /></a>
                         </div>
                         <div class="time">0hrs</div>
-                        <div class="previous"></div>
+                        <div class="previous">Previous - 1hr</div>
                     </div>
                 </div>
 
@@ -124,7 +124,7 @@
 
                 <div class="square four">
                     <div class="bg bg-four"></div>
-                    <div class="content">
+                    <div class="exercise content">
                         <div class="category">Exercise</div>
                         <div class="dots">
                             <a href="#"
@@ -133,7 +133,7 @@
                                     alt=""
                             /></a>
                         </div>
-                        <div class="time">1hr</div>
+                        <div class="time">0hrs</div>
                         <div class="previous">Previous - 1hr</div>
                     </div>
                 </div>
@@ -150,7 +150,7 @@
 
                 <div class="square five">
                     <div class="bg bg-five"></div>
-                    <div class="content">
+                    <div class="social content">
                         <div class="category">Social</div>
                         <div class="dots">
                             <a href="#"
@@ -159,7 +159,7 @@
                                     alt=""
                             /></a>
                         </div>
-                        <div class="time">1hr</div>
+                        <div class="time">1hrs</div>
                         <div class="previous">Previous - 3hrs</div>
                     </div>
                 </div>
@@ -176,7 +176,7 @@
 
                 <div class="square six">
                     <div class="bg bg-six"></div>
-                    <div class="content">
+                    <div class="selfcare content">
                         <div class="category">Self Care</div>
                         <div class="dots">
                             <a href="#"
