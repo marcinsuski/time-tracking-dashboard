@@ -33,7 +33,6 @@ async function timeTrack() {
     const request = new Request(newRequest);
     const response = await fetch(request);
     const data = await response.json();
-    console.log(data);
 
     // event listeners
     daily.addEventListener("click", showDaily);

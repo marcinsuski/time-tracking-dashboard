@@ -349,6 +349,7 @@ button:hover {
 
 .dots:hover {
     -webkit-filter: brightness(100);
+    filter: brightness(100);
 }
 
 .time {
@@ -392,9 +393,9 @@ footer a:hover {
     }
 
     .wrapper {
-        width: 375px;
-        height: 500%;
-        min-height: 100%;
+        margin-top: 20px;
+        width: 90%;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -507,6 +508,13 @@ footer a:hover {
         padding-right: 1rem;
         grid-column: 2 / 2;
         grid-row: 2 / 2;
+    }
+
+    footer {
+        display: none;
+        position: fixed;
+        padding-bottom: 0px;
+        bottom: 0;
     }
 }
 
