@@ -441,8 +441,13 @@ footer a:hover {
         padding-top: 0.5rem;
     }
 
+    h1 {
+        font-size: 1.8rem;
+        font-weight: 100;
+    }
+
     .person {
-        padding-left: 0.5rem;
+        padding-left: 0.7rem;
     }
 
     .time-summary {
@@ -482,12 +487,12 @@ footer a:hover {
     }
 
     .content {
-        grid-template-columns: 60% 40%;
+        grid-template-columns: 50% 50%;
         grid-template-rows: 30% 50% 20%;
     }
 
     .category {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
         display: flex;
         align-items: flex-end;
     }
@@ -497,7 +502,7 @@ footer a:hover {
     }
 
     .time {
-        font-size: 1.6rem;
+        font-size: 2.5rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -511,6 +516,7 @@ footer a:hover {
         padding-right: 1rem;
         grid-column: 2 / 2;
         grid-row: 2 / 2;
+        font-size: 0.9rem;
     }
 
     footer {

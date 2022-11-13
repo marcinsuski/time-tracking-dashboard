@@ -116,42 +116,42 @@ async function timeTrack() {
         workTime.innerText = `${workWeeklyTime}hrs`;
         let workWeeklyPrevious = data[0].timeframes.weekly.previous;
         workPrevious = work.querySelector(".previous");
-        workPrevious.innerText = `Previous - ${workWeeklyPrevious}hrs`;
+        workPrevious.innerText = `Last week - ${workWeeklyPrevious}hrs`;
 
         let playWeeklyTime = data[1].timeframes.weekly.current;
         playTime = play.querySelector(".time");
         playTime.innerText = `${playWeeklyTime}hrs`;
         let playWeeklyPrevious = data[1].timeframes.weekly.previous;
         playPrevious = play.querySelector(".previous");
-        playPrevious.innerText = `Previous - ${playWeeklyPrevious}hrs`;
+        playPrevious.innerText = `Last week - ${playWeeklyPrevious}hrs`;
 
         let studyWeeklyTime = data[2].timeframes.weekly.current;
         playTime = study.querySelector(".time");
         playTime.innerText = `${studyWeeklyTime}hrs`;
         let studyWeeklyPrevious = data[2].timeframes.weekly.previous;
         studyPrevious = study.querySelector(".previous");
-        studyPrevious.innerText = `Previous - ${studyWeeklyPrevious}hrs`;
+        studyPrevious.innerText = `Last week - ${studyWeeklyPrevious}hrs`;
 
         let exerciseWeeklyTime = data[3].timeframes.weekly.current;
         exerciseTime = exercise.querySelector(".time");
         exerciseTime.innerText = `${exerciseWeeklyTime}hrs`;
         let exerciseWeeklyPrevious = data[3].timeframes.weekly.previous;
         exercisePrevious = exercise.querySelector(".previous");
-        exercisePrevious.innerText = `Previous - ${exerciseWeeklyPrevious}hrs`;
+        exercisePrevious.innerText = `Last week - ${exerciseWeeklyPrevious}hrs`;
 
         let socialWeeklyTime = data[4].timeframes.weekly.current;
         socialTime = social.querySelector(".time");
         socialTime.innerText = `${socialWeeklyTime}hrs`;
         let socialWeeklyPrevious = data[4].timeframes.weekly.previous;
         socialPrevious = social.querySelector(".previous");
-        socialPrevious.innerText = `Previous - ${socialWeeklyPrevious}hrs`;
+        socialPrevious.innerText = `Last week - ${socialWeeklyPrevious}hrs`;
 
         let selfcareWeeklyTime = data[5].timeframes.weekly.current;
         selfcareTime = selfcare.querySelector(".time");
         selfcareTime.innerText = `${selfcareWeeklyTime}hrs`;
         let selfcareWeeklyPrevious = data[5].timeframes.weekly.previous;
         selfcarePrevious = selfcare.querySelector(".previous");
-        selfcarePrevious.innerText = `Previous - ${selfcareWeeklyPrevious}hrs`;
+        selfcarePrevious.innerText = `Last week - ${selfcareWeeklyPrevious}hrs`;
     }
 
     // monthly data //
@@ -162,7 +162,7 @@ async function timeTrack() {
         workTime.innerText = `${workMonthlyTime}hrs`;
         let workMonthlyPrevious = data[0].timeframes.monthly.previous;
         workPrevious = work.querySelector(".previous");
-        workPrevious.innerText = `Previous - ${workMonthlyPrevious}hrs`;
+        workPrevious.innerText = `Last month - ${workMonthlyPrevious}hrs`;
 
         let playMonthlyTime = data[1].timeframes.monthly.current;
         playTime = play.querySelector(".time");
@@ -170,7 +170,7 @@ async function timeTrack() {
 
         let playMonthlyPrevious = data[1].timeframes.monthly.previous;
         playPrevious = play.querySelector(".previous");
-        playPrevious.innerText = `Previous - ${playMonthlyPrevious}hrs`;
+        playPrevious.innerText = `Last month - ${playMonthlyPrevious}hrs`;
 
         let studyMonthlyTime = data[2].timeframes.monthly.current;
         studyTime = study.querySelector(".time");
@@ -178,28 +178,28 @@ async function timeTrack() {
 
         let studyMonthlyPrevious = data[2].timeframes.monthly.previous;
         studyPrevious = study.querySelector(".previous");
-        studyPrevious.innerText = `Previous - ${studyMonthlyPrevious}hrs`;
+        studyPrevious.innerText = `Last month - ${studyMonthlyPrevious}hrs`;
 
         let exerciseMonthlyTime = data[3].timeframes.monthly.current;
         exerciseTime = exercise.querySelector(".time");
         exerciseTime.innerText = `${exerciseMonthlyTime}hrs`;
         let exerciseMonthlyPrevious = data[3].timeframes.monthly.previous;
         exercisePrevious = exercise.querySelector(".previous");
-        exercisePrevious.innerText = `Previous - ${exerciseMonthlyPrevious}hrs`;
+        exercisePrevious.innerText = `Last month - ${exerciseMonthlyPrevious}hrs`;
 
         let socialMonthlyTime = data[4].timeframes.monthly.current;
         socialTime = social.querySelector(".time");
         socialTime.innerText = `${socialMonthlyTime}hrs`;
         let socialMonthlyPrevious = data[4].timeframes.monthly.previous;
         socialPrevious = social.querySelector(".previous");
-        socialPrevious.innerText = `Previous - ${socialMonthlyPrevious}hrs`;
+        socialPrevious.innerText = `Last month - ${socialMonthlyPrevious}hrs`;
 
         let selfcareMonthlyTime = data[5].timeframes.monthly.current;
         selfcareTime = selfcare.querySelector(".time");
         selfcareTime.innerText = `${selfcareMonthlyTime}hrs`;
         let selfcareMonthlyPrevious = data[5].timeframes.monthly.previous;
         selfcarePrevious = selfcare.querySelector(".previous");
-        selfcarePrevious.innerText = `Previous - ${selfcareMonthlyPrevious}hrs`;
+        selfcarePrevious.innerText = `Last month - ${selfcareMonthlyPrevious}hrs`;
     }
 }
 
