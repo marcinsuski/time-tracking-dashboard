@@ -105,7 +105,10 @@ main {
     margin-bottom: 0.2rem;
     color: var(--paleblue);
 }
-
+h1 {
+    font-size: 2rem;
+    font-weight: 100;
+}
 .person {
     font-size: 2rem;
 }
